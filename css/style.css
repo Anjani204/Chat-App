@@ -1,0 +1,77 @@
+/* HTTP protocol is only one way i.e., from client to server,in order to have a two way connection between client and server we use web socket protocol which provides a 2 way connection between client and server */
+/* So,here we implement using socket.io is a js library for real time web applications. */
+
+
+/* AJAX-is used::AJAX is not a programming language.
+
+AJAX is a technique for accessing web servers from a web page.
+
+AJAX stands for Asynchronous JavaScript And XML */
+
+
+/* Here we use two types of servers-
+1.client server(client website)
+2.node server(node-site)//Both are seperated servers and connected at last */
+
+.logo{
+    display: block;
+    margin: auto;
+    width:50px;
+    height: 50px;
+    
+}
+h1{
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+}
+.container{
+    max-width: 955px;
+    /* background-color: red; */
+    border:3px solid black;
+    margin: 12px auto;
+    height: 60vh;
+    padding:  33px 5px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+    border-radius: 20px;
+}
+.message{
+    background-color: rgb(180,177,177);
+    width:24%;
+    padding:10px;
+    margin:17px 12px;
+    border:2px solid black;
+    border-radius:5px;
+}
+.right{
+    float: left;
+    clear:both;
+}
+.left{
+    float: right;
+    clear:both;
+}
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+}
+#messageInp{
+   width:91%; 
+   border: 3px solid black;
+   border-radius: 6px;
+   height: 34px;
+}
+.btn{
+    cursor: pointer;
+    border: 3px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(white,rgb(109,39,239));
+}
+
